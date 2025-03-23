@@ -93,7 +93,7 @@
                             </ul>
                         </div>
                         <div class="right-nav align-items-center d-flex justify-content-end">
-                            <a class="themeht-btn primary-btn" href="{{ $BasicsInfo['appointment-link'] }}">
+                            <a class="themeht-btn primary-btn" href="javascript:void(0);" onclick="requestAppointment()">
                                 <span>Book Appointment </span>
                                 <i class="flaticon-plus"></i>
                             </a>

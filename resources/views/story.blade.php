@@ -122,7 +122,7 @@
                             </div>
                             <h4 class="text-white">24x7 Care</h4>
                             <p class="text-white">Qualified doctors available six days a week, view our timetable to make an appointment. 24x7 Available For Booking</p>
-                            <a href="{{ $BasicsInfo['appointment-link'] }}" class="themeht-btn white-btn"><span>Book Appointment Now</span><i class="flaticon-plus"></i></a>
+                            <a href="javascript:void(0);" onclick="requestAppointment()" class="themeht-btn white-btn"><span>Book Appointment Now</span><i class="flaticon-plus"></i></a>
                             <a href="https://wa.me/919879139561" class="themeht-btn white-btn"><span>Send Whatsapp</span><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
                         </div>
                     </div>

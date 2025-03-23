@@ -36,7 +36,7 @@
                             </a>
                         </li>
                     </ul>
-                    <a class="themeht-btn white-btn" href="{{ $BasicsInfo['appointment-link'] }}">
+                    <a class="themeht-btn white-btn" href="javascript:void(0);" onclick="requestAppointment()">
                         <span>Book An Appointment</span>
                         <i class="flaticon-plus"></i>
                     </a>
